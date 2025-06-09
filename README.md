@@ -8,10 +8,12 @@
 - Изменения руководителя
 
 ## Технологии
-- Python 3.10+
-- Flask 2.3
-- MySQL/MariaDB
-- SQLAlchemy
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.3
+Flask-Migrate==4.0.4
+psycopg2-binary==2.9.6
+python-dotenv==1.0.0
+
 
 ## Установка
 1. Клонировать репозиторий:
@@ -26,7 +28,7 @@ pip install -r requirements.txt
 
 3. Настроить базу данных в `.env`:
 ```ini
-DATABASE_URL=mysql+pymysql://user:password@localhost/employee_db
+DATABASE_URI = 'postgresql://postgres:user:password@localhost:employee_db'
 SECRET_KEY=your-secret-key
 ```
 
