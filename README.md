@@ -36,3 +36,9 @@ SECRET_KEY=your-secret-key
 ```bash
 flask run
 ```
+5. ## Установка и запуск
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/ваш-username/employee-management-system.git
+cd employee-management-system
